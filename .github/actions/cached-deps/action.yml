@@ -2,7 +2,7 @@ name: 'Get & Cache Dependencies'
 description: 'Get the dependencies (via npm) and cache them'
 inputs:
   caching:
-    description: 'Whether to cache dependencies or not. If set to false, the action will always install dependencies and not.''
+    description: 'Whether to cache dependencies or not. If set to false, the action will always install dependencies and not.'
     required: false
     default: 'true'
 runs:
